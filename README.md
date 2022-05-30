@@ -12,6 +12,7 @@ Additional Dependencies
 2. Nodemon
 
 API route (GET, POST) : http://localhost:5000/api/v1/tasks
+
 API route (PATCH, DELETE, GET-SINGLE) : http://localhost:5000/api/v1/tasks/:id
 
 MVC Architecture
@@ -23,7 +24,7 @@ The API is designed to match with MVC architecture for easy updating and error h
 1. Run `npm install` to install the dependencies from package.json
 2. Create a dotenv file (.env)
 3. Place your MongoDB URI as MONGO_URI=yourURI
-4. Manupulate the schemas as required
+4. Manupulate the schemas as required `model.js`
 5. Match the View fetching from the API route above
 6. Take a look at `controller.js` to match with the way response is being made to render in the front-end
 
