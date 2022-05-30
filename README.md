@@ -1,7 +1,7 @@
 # REST-API---Node-Express-MongoDB
 
 This API handles basic CRUD operations with two elements in the schema, Name and hasCompleted. 
-*Schema setup in model.js*
+
 
 Dependencies used
 1. Express mainly for middleware setups.
