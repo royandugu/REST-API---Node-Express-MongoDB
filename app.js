@@ -14,9 +14,9 @@ app.use((req,res)=>res.status(404).send("The route you are trying to find does n
 app.use(errorHandler);
 
 
-const start=()=>{
+const start=async ()=>{
     try{
-        dbConnector(process.env.MONGO_URI);
+        await dbConnector(process.env.MONGO_URI);
         app.listen(5000,()=>console.log("Api is listening to port 5000"));
     }
     catch(err){
