@@ -1,5 +1,4 @@
 # REST-API---Node-Express-MongoDB
-![Expressjs](https://user-images.githubusercontent.com/95025114/171019411-39416718-f91a-41d6-bb4d-dcc99ea2fa46.svg) ![mongoose](https://user-images.githubusercontent.com/95025114/171019218-79641fca-f3b6-4c23-b213-8500fc5b74ca.png)
 
 This API handles basic CRUD operations with two elements in the schema, Name and hasCompleted. 
 *Schema setup in model.js*
