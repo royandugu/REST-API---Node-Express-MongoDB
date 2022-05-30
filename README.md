@@ -31,4 +31,4 @@ The API is designed to match with MVC architecture for easy updating and error h
 1. The additional errors caught by controllers are just regularly thrown.
  
 
-`---Learned and implemented from John Smilga---`
+*---Learned and implemented from John Smilga---*
