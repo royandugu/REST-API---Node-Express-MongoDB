@@ -15,8 +15,8 @@ API route (GET, POST) : http://localhost:5000/api/v1/tasks
 
 API route (PATCH, DELETE, GET-SINGLE) : http://localhost:5000/api/v1/tasks/:id
 
-MVC Architecture
-The API is designed to match with MVC architecture for easy updating and error handing.
+MVC Architecture :
+For easy updating and error handing.
  
 ![web_mvc_diagram](https://user-images.githubusercontent.com/95025114/171020034-23d60202-2109-4cad-9ff0-57e3d750c68b.png)
 
